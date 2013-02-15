@@ -72,7 +72,7 @@ site near you, or see
 L<http://search.cpan.org/dist/Devel-TraceINC/>.
 
 The development version lives at
-L<http://github.com/hanekomu/Devel-TraceINC/>.
+L<http://github.com/marcelgrunauer/Devel-TraceINC/>.
 Instead of sending patches, please fork this project using the standard git
 and github infrastructure.
 
