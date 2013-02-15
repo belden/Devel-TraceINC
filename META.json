@@ -1,7 +1,7 @@
 {
    "resources" : {
       "homepage" : "http://search.cpan.org/dist/Devel-TraceINC/",
-      "repository" : "http://github.com/hanekomu/Devel-TraceINC",
+      "repository" : "http://github.com/marcengrunauer/Devel-TraceINC",
       "bugtracker" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Devel-TraceINC"
    },
    "generated_by" : "Dist::Zilla version 1.100711",
