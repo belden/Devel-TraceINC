@@ -28,7 +28,10 @@ my %WriteMakefileArgs = (
                                         'English' => '0',
                                         'File::Find' => '0',
                                         'File::Temp' => '0',
-                                        'Carp' => '0'
+                                        'Carp' => '0',
+
+                                         # we use Array::Sticky::INC to lock our hook in place
+                                        'Array::Sticky' => 0,
                                       },
                        'LICENSE' => 'perl'
                      );

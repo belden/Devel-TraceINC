@@ -6,13 +6,16 @@ package Devel::TraceINC;
 our $VERSION = '1.100850';
 # ABSTRACT: Trace who is loading which perl modules
 
+use Array::Sticky::INC;
+
 BEGIN {
     unshift @INC, sub {
         my ($self, $file) = @_;
         my ($package, $filename, $line) = caller;
         warn "$file loaded from package $package, file $filename, line $line\n";
+        return;    # undef to indicate that require() should look further
     };
-    return;    # undef to indicate that require() should look further
+    Array::Sticky::INC->make_sticky;
 }
 1;
 
