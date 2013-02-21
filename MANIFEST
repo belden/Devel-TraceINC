@@ -25,3 +25,11 @@ t/release-pod-spell.t
 t/release-pod-syntax.t
 t/release-portability.t
 t/release-synopsis.t
+t/custom-hooks.t
+t/lib/mytest/loaded_via_require.pm
+t/lib/mytest/loaded_via_string_eval_use.pm
+t/lib/mytest/look_inside_me.pm
+t/lib/mytest/look_inside_me/find_a_friend.pm
+t/lib/mytest/never_gonna_try_to_load_this.pm
+t/lib/mytest/stub_me_out.pm
+t/lib/mytest/thing.pm
