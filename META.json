@@ -9,7 +9,7 @@
       "version" : 1.4,
       "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
    },
-   "version" : "1.100851",
+   "version" : "1.100852",
    "name" : "Devel-TraceINC",
    "author" : [
       "Marcel Gruenauer <marcel@cpan.org>"
@@ -18,7 +18,7 @@
    "build_requires" : {},
    "provides" : {
       "Devel::TraceINC" : {
-         "version" : "1.100851",
+         "version" : "1.100852",
          "file" : "lib/Devel/TraceINC.pm"
       }
    },
